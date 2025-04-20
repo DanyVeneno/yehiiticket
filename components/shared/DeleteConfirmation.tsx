@@ -44,7 +44,7 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
         </AlertDialogHeader>
 
         <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
+          <AlertDialogCancel>Cancelar</AlertDialogCancel>
 
           <AlertDialogAction
             onClick={() =>
@@ -53,7 +53,7 @@ export const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
               })
             }
           >
-            {isPending ? "Deleting..." : "Delete"}
+            {isPending ? "Eliminando..." : "Eliminar"}
           </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>

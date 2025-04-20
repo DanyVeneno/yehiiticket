@@ -47,7 +47,7 @@ export function FileUploader({
           />
         </div>
       ) : (
-        <div className='flex-center flex-col py-5 text-grey-500'>
+        <div className='flex-center flex-col py-5 text-orange-500'>
           <img
             src='/assets/icons/upload.svg'
             width={77}
