@@ -71,7 +71,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
 
           {hasOrderLink && (
             <Link href={`/orders?eventId=${event._id}`} className='flex gap-2'>
-              <p className='text-primary-500'>Detalles de la Orden</p>
+              <p className='text-orange-500'>Detalles de la Orden</p>
               <Image
                 src='/assets/icons/arrow.svg'
                 alt='search'

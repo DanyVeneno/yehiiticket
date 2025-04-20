@@ -123,7 +123,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
               <FormItem className='w-full'>
                 <FormControl>
                   <Input
-                    placeholder='Event title'
+                    placeholder='Titulo del Evento'
                     {...field}
                     className='input-field'
                   />
@@ -157,7 +157,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
               <FormItem className='w-full'>
                 <FormControl className='h-72'>
                   <Textarea
-                    placeholder='Description'
+                    placeholder='Descripción'
                     {...field}
                     className='textarea rounded-2xl'
                   />
@@ -200,7 +200,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                     />
 
                     <Input
-                      placeholder='Event location or Online'
+                      placeholder='Presencial o en línea'
                       {...field}
                       className='input-field'
                     />
