@@ -89,7 +89,7 @@ const EventDetails = async ({
             </div>
 
             <div className='flex flex-col gap-2'>
-              <p className='p-bold-20 text-grey-600'>What You'll Learn:</p>
+              <p className='p-bold-20 text-grey-600'>Que Aprenderas:</p>
               <p className='p-medium-16 lg:p-regular-18'>{event.description}</p>
               <p className='p-medium-16 lg:p-regular-18 truncate text-primary-500 underline'>
                 {event.url}
@@ -101,7 +101,7 @@ const EventDetails = async ({
 
       {/* EVENTS with the same category */}
       <section className='wrapper my-8 flex flex-col gap-8 md:gap-12'>
-        <h2 className='h2-bold'>Related Events</h2>
+        <h2 className='h2-bold'>Eventos Relacionados</h2>
 
         <Collection
           data={relatedEvents?.data}

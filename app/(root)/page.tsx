@@ -51,7 +51,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
         className='wrapper my-8 flex flex-col gap-8 md:gap-12'
       >
         <h2 className='h2-bold'>
-          Respaldado por <br /> miles de eventos
+          Respaldado por <br /> cientos de eventos
         </h2>
 
         <div className='flex w-full flex-col gap-5 md:flex-row'>
@@ -61,8 +61,8 @@ export default async function Home({ searchParams }: SearchParamProps) {
 
         <Collection
           data={events?.data}
-          emptyTitle='No Events Found'
-          emptyStateSubtext='Come back later'
+          emptyTitle='No hay eventos por el momento'
+          emptyStateSubtext='Regresa más tarde'
           collectionType='All_Events'
           limit={6}
           page={page}
